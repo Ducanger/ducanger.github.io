@@ -8,21 +8,30 @@
         <title>Hi! I'm Dat</title>
         <link rel="icon" type="image/x-icon" href="static/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
-        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <script async src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        <script async src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!--
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700">
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i">
+        <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" 
+        href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" type="text/css"/>
+        <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" 
+        href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" type="text/css"/>
+        -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" type="text/css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" type="text/css"/>
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet"/>
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Thanh Dat Do</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" 
-                      src="static/img/ava.jpg"/></span>
+                <span class="d-none d-lg-block"><img loading="lazy" class="img-fluid img-profile rounded-circle mx-auto mb-2" 
+                      src="static/img/ava.webp" width="200" height="200"></span>
             </a>
             <a class="navbar-brand cv-download" href="https://drive.google.com/uc?export=download&id=1qnls0UTrbnHLaXFWupxYhPhHD-c45Ta1">
                 <span class="d-block d-lg-none"><i class="fa fa-download"></i> </span>
@@ -38,7 +47,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certification">Certification</a></li>
                     <li class="nav-item"><a class="nav-link" href="https://drive.google.com/uc?export=download&id=1qnls0UTrbnHLaXFWupxYhPhHD-c45Ta1">
-                        <i class="fa fa-download"></i> Download CV</a></li>
+                    <i class="fa fa-download"></i> Download CV</a></li>
                 </ul>
             </div>
         </nav>
