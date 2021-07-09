@@ -1,1 +1,1 @@
-Web CV: https://ducanger.github.io/cv/
+Web CV: https://ducanger.github.io
