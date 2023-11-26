@@ -404,7 +404,7 @@ img{
 .thumb-item__btn.--selected{ outline: solid 2px var(--orange-clr); }
 .thumb-item__btn.--selected img{ opacity: .5; }
 .image-box__src{
-    margin-top: -30px;
+    margin-top: -10px;
     visibility: visible;
     opacity: 1;
     transition: visibility, opacity .2s ease-in-out;

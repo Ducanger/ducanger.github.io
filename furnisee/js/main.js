@@ -167,7 +167,7 @@ const mainJs = (
       if(element.matches(`p`)){
         element = element.parentElement
       }
-      if(element.matches(`.image-box__src[tabindex='0']`) && window.matchMedia(`(min-width: 992px)`).matches && actionCondition){
+      if(element.matches(`.image-box__src[tabindex='0']`) && window.matchMedia(`(min-width: 200px)`).matches && actionCondition){
         event.preventDefault()
         zoomProductImage(event)
       }
