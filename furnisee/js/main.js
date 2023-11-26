@@ -126,7 +126,7 @@ const mainJs = (
             }
             else{
               const productId = originalProductSlider.querySelector('.image-box__src').getAttribute('data-product-id')
-              const thumbImageURL = `images/image-product-${productId.split('-')[2]}-thumbnail.jpg`
+              const thumbImageURL = `images/chair/chair-${productId.split('-')[2]}-thumbnail.jpg`
               const productName = document.querySelector('.product__name').textContent.trim()
               let discountPrice = document.querySelector('.discount-price__value').textContent.trim()
               discountPrice = discountPrice.replace('$', '')
